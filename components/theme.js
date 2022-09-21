@@ -1,4 +1,3 @@
-
 import base from '@rebass/preset'
 import { merge } from 'lodash'
 

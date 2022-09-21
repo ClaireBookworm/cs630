@@ -5,7 +5,7 @@ const colors = require('../lib/colors.json')
 
 const links = [
     { label: "Home", href: "/" },
-    { label: "Documentation", href: "/writings.js" },
+    { label: "Documentation", href: "/writing.js" },
 ]
 
 export default function Nav({active}) {
@@ -25,7 +25,7 @@ export default function Nav({active}) {
                 document.querySelector("#theme_toggle").classList.toggle("rotate-180");
             }
         });
-        console.log('Made by Claire Wang & Sarthak Mohanty. All Rights Reserved.')
+        console.log('Made by CS630 2022-2023 Class. All Rights Reserved.')
     })
     return (
         <nav className="text-white">
