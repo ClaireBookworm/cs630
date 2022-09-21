@@ -5,7 +5,7 @@ const colors = require('../lib/colors.json')
 
 const links = [
     { label: "Home", href: "/" },
-    { label: "Documentation", href: "/writing.js" },
+    { label: "Documentation", href: "/writing" },
 ]
 
 export default function Nav({active}) {
