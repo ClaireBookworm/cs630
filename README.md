@@ -1,6 +1,17 @@
 # CS 630 Textbook
 
 
+You can run the tailwind parts with `npx tailwindcss -i ./styles/globals.css -o ./dist/output.css --watch ` (not exactly sure why it also needs to me run) alongside `npm run dev`. 
+
+Feel free to add your `.md` files into the `posts` folder! Add the title using the same format as this:
+
+```md
+---
+title: "Title here"
+chapter: "1.1"
+---
+```
+
 ## Getting Started
 
 First, run the development server:
