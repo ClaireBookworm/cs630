@@ -22,7 +22,6 @@ export default function Nav({active}) {
                 document.querySelector("#theme_toggle").classList.toggle("rotate-180");
             } else if (newColorScheme === "light") {
                 document.body.style.backgroundColor = colors[~~(Math.random() * colors.length)];
-				// document.body.style.backgroundColor = "#ffffff"
                 document.querySelector("#theme_toggle").classList.toggle("rotate-180");
             }
         });
@@ -45,7 +44,6 @@ export default function Nav({active}) {
                     <button
                         onClick={() => {
                             document.body.style.backgroundColor === '' || document.body.style.backgroundColor === 'rgb(0, 0, 0)' ? document.body.style.backgroundColor = colors[~~(Math.random() * colors.length)] : document.body.style.backgroundColor = "#000";
-							// document.body.style.color = "#fff";
                             document.querySelector("#theme_toggle").classList.toggle("rotate-180");
                         }}
                         className="p-2 rounded-full hover:bg-white hover:bg-opacity-10 transform duration-200" id="theme_toggle">
