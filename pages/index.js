@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import Nav from '../components/nav'
 
@@ -25,10 +26,12 @@ export default function Home() {
           </p>
         </div>
         <div className={styles.grid}>
-          <a href="/writing" className={styles.card}>
+          <Link href="/writing" className={styles.card}>
+          {/* <a href="/writing" className={styles.card}> */}
             <h2>Chapters &rarr;</h2>
             <p>Find the information and tutorials here.</p>
-          </a>
+          </Link>
+          {/* </a> */}
         </div>
       </main>
 
