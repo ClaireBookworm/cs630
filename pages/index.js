@@ -26,12 +26,12 @@ export default function Home() {
           </p>
         </div>
         <div className={styles.grid}>
-          <Link href="/writing" className={styles.card}>
-          {/* <a href="/writing" className={styles.card}> */}
+          <Link href="/writing">
+            <a className={styles.card}>
             <h2>Chapters &rarr;</h2>
             <p>Find the information and tutorials here.</p>
+            </a>
           </Link>
-          {/* </a> */}
         </div>
       </main>
 
