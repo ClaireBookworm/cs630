@@ -31,6 +31,7 @@
 .title a {
   color: #0070f3;
   text-decoration: none;
+  width: 60vw;
 }
 
 .title a:hover,

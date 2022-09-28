@@ -16,7 +16,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.banner}>
           <h1 className={styles.title}>
-            CS630 Data Structures and Algorithms Textbook
+            Data Structures and Algorithms Textbook
           </h1>
 
           <p className={styles.description}>
@@ -28,8 +28,7 @@ export default function Home() {
         <div className={styles.grid}>
           <Link href="/writing">
             <a className={styles.card}>
-            <h2>Chapters &rarr;</h2>
-            <p>Find the information and tutorials here.</p>
+            <h1>Get started! &rarr;</h1>
             </a>
           </Link>
         </div>
@@ -37,14 +36,15 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://www.andover.edu"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <span className={styles.logo}>
+          Powered by CSC630 Phillips Academy. 
+          {/* {' '} */}
+          {/* <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
+          </span> */}
         </a>
       </footer>
     </div>
